@@ -1,0 +1,166 @@
+*{
+    font-family: 'Smooch Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+li{
+    font-size: 1.4em;
+}
+p{
+    font-size: 1.4em;
+}
+
+.navbar, footer{
+    background-color: #FFCB69;
+}
+.nav-link{
+    color: #d68c02;
+}
+.nav-link:hover{
+    color: #694400
+}
+.navbar img{
+    margin-left: 10px;
+}
+
+.nuestroservicio{
+    margin: 50px 0 50px;
+}
+
+.nuestroservicio h3{
+    text-align: center;
+}
+
+.nuestroservicio p{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+.imagenCard{
+    width: 100px;
+}
+
+.descripcion{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.uno{
+    text-align: center;
+}
+
+.suscripcion{
+    border-top: 8px solid #FFCB69;
+    border-bottom: 8px solid #FFCB69;
+    margin: 50px 0;
+    padding: 50px 0;
+}
+
+.descripcionsub{
+    width: 34%;
+    margin: auto;
+    
+}
+
+.suscripcion h3{
+    text-align: center;
+}
+.suscripcion p{
+    text-align: justify;
+
+}
+.suscripcion li {
+    list-style:disc;
+    list-style-position: inside;
+}
+.text1{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.descripcionServicios{
+    width: 30%;
+}
+.descripcionServicios li {
+    list-style:disc;
+    list-style-position: inside;
+}
+
+.servImg img{
+    border-radius: 5%;
+    width: 40vw;
+
+}
+
+footer{
+    padding: 50px 0 50px; 
+}
+
+.grupo1{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 img{
+    width: 250px;
+}
+.box2{
+    width: 30%;
+}
+.box3 a{
+    color: #d68c02;
+}
+.box2 h3, .box3 h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .descripcion{
+        display: block;
+    }
+
+    .uno{
+        margin: 30px 0 30px;
+    }
+
+    .descripcionsub{
+        width: 80%;
+        margin: auto;
+    }
+    .text1 {
+        display: block;
+        padding: 0;
+    }
+    .descripcionServicios{
+        width: 100%;
+    }
+    .descripcionServicios h3{
+        text-align: center;
+    }
+    .descripcionServicios{
+        text-align: justify;
+    }
+    .servImg img{
+        width: 80vw;
+    }
+    .grupo1{
+        display: block;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box2{
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }    
+    .box3 ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
